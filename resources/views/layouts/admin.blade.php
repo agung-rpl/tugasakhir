@@ -158,19 +158,19 @@
                     <li class="menu-header small text-uppercase"><span class="menu-header-text">Produk</span></li>
                     <!-- Tables -->
                     <li class="menu-item">
-                        <a href="tables-basic.html" class="menu-link">
+                        <a href="{{ route ('oli') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-car"></i>
                             <div data-i18n="Tables">Oli</div>
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="tables-basic.html" class="menu-link">
+                        <a href="{{ route ('ban') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-car"></i>
                             <div data-i18n="Tables">Ban</div>
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="tables-basic.html" class="menu-link">
+                        <a href="{{ route ('sparepart') }}" class="menu-link">
                             <i class="menu-icon tf-icons bx bx-car"></i>
                             <div data-i18n="Tables">Sparepart</div>
                         </a>
